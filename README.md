@@ -28,6 +28,7 @@ The underlying data used to develop the model is a two-month subeset of the whol
  - userId: string (nullable = true)
 
 Graphs below show distributions of churn/don't churn users by some key categories:
+
 <img src="Image/Churn by Gender.png">
 
 <img src="Image/Churn by Gender.png">
@@ -61,7 +62,7 @@ The selected features are based in part on user characteristics, including gende
  - avg_session_hour: string (nullable = true)
  
  ## Modelling
- To build our model, the modelling dataset was firstly transformed in a way that each row is a single feature vector and the data in each column was normalised. The datast was then split into training and validation data in a ratio of 80% to 20%.
+To build our model, the modelling dataset was firstly transformed in a way that each row is a single feature vector and the data in each column was normalised. The datast was then split into training and validation data in a ratio of 80% to 20%.
 
 The following three supervised learning algorithms are then considered:
 1. Logistic Regression (LR)
@@ -87,6 +88,7 @@ Gradient Boosted Tree Classifier:
 
 All of the three machine learning models performed well in predicting those customers' who will most probably end in unsubscribing. By comparing the model accuray and F1 scores on both train and test datasets, the Decision Tree Classifier model appears to be the best one. In terms of the feature importance, the average hours per session is proved to be the most important feature in predicting unsubscribing activity which overwhelmingly contributes 70%.
 All of the three machine learning models performed well in predicting those customers' who will most probably end in unsubscribing. By comparing the model accuray and F1 scores on both train and test datasets, the Decision Tree Classifier model appears to be the best one. In terms of the feature importance, the average hours per session is proved to be the most important feature in predicting unsubscribing activity which overwhelmingly contributes 70%.
+
 <img src="Image/Feature Importance.png">
 
 ## Summary 
