@@ -87,6 +87,7 @@ Gradient Boosted Tree Classifier:
 
 All of the three machine learning models performed well in predicting those customers' who will most probably end in unsubscribing. By comparing the model accuray and F1 scores on both train and test datasets, the Decision Tree Classifier model appears to be the best one. In terms of the feature importance, the average hours per session is proved to be the most important feature in predicting unsubscribing activity which overwhelmingly contributes 70%.
 All of the three machine learning models performed well in predicting those customers' who will most probably end in unsubscribing. By comparing the model accuray and F1 scores on both train and test datasets, the Decision Tree Classifier model appears to be the best one. In terms of the feature importance, the average hours per session is proved to be the most important feature in predicting unsubscribing activity which overwhelmingly contributes 70%.
+<img src="Image/Feature Importance.png">
 
 ## Summary 
 In this project, a model was built to predict user churn from Sparkify - a song streaming service. Feature engineering was firstly performmed following familiarising and understanding the dataset mainly based on the activities of the users. The data was fed into three supervised machine learning models. Out of those, Decision Tree classifier provided the best results. It was also found that the average hours per session is the particularly most important feature that helps in predicting user churn.
