@@ -1,6 +1,9 @@
 # <center>Predicting user who unsubscribe using PySpark
 ## Project Overview
 Sparkify is a popular digital music service where many of users stream their favorite songs everyday using either free or paid services. This project is to develop a model that predict which users are at risk cancelling their service. If we can accurately identify those users before they leave, the business can offer them incentives and discounts potentially saving millions in revenues.
+
+A machine learning model would be developed to predict those users who are likely to leave the service based on a list of user characteristics and behaviours. 
+
 The full details of the analysis and code can be found at [here](Sparkify.ipynb).
 
 ## Data
@@ -72,7 +75,7 @@ The following three supervised learning algorithms are then considered:
 In order to find the best hyper-parameters for each of the models, grid search and a 3-fold cross validation were performed on the dataset.
 
 ## Results
-Model accuracy and F1 scores are used to evaluate the model performance. 
+Model accuracy and F1 scores are used to evaluate the model performance. Accuracy is chosen to see how accurately the model predicts the result but given the targeted churn class is a minority grouo, F1 score is coupled to represent both Precision and Recall.
 
 The model metrics are as followed:
 
