@@ -71,7 +71,9 @@ The following three supervised learning algorithms are then considered:
 
 In order to find the best hyper-parameters for each of the models, grid search and a 3-fold cross validation were performed on the dataset.
 
-## Conclusion
+## Results
+Model accuracy and F1 scores are used to evaluate the model performance. 
+
 The model metrics are as followed:
 
 Logistic Regression:
@@ -91,5 +93,11 @@ All of the three machine learning models performed well in predicting those cust
 
 <img src="Image/Feature Importance.png">
 
-## Summary 
+## Conclusion
 In this project, a model was built to predict user churn from Sparkify - a song streaming service. Feature engineering was firstly performmed following familiarising and understanding the dataset mainly based on the activities of the users. The data was fed into three supervised machine learning models. Out of those, Decision Tree classifier provided the best results. It was also found that the average hours per session is the particularly most important feature that helps in predicting user churn.
+
+## Improvement 
+The model was based on a two-month history only. A test on another period of the year could be used or building a model based on a longer period. <br>
+Additionally, a few other matrices could be considered:
+- Number of singers listened to 
+- Logged-in time per day
