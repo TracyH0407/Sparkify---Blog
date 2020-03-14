@@ -4,7 +4,7 @@ Sparkify is a popular digital music service where many of users stream their fav
 
 A machine learning model would be developed to predict those users who are likely to leave the service based on a list of user characteristics and behaviours. 
 
-The full details of the analysis and code can be found at [here](Sparkify.ipynb).
+The full details of the analysis and code can be found at [here](https://github.com/TracyH0407/sparkify).
 
 ## Data
 ### Data Processing
